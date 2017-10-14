@@ -34,7 +34,7 @@ public class main extends javax.swing.JFrame {
 
         jButton1.setText("jButton1");
 
-        jButton2.setText("jButton3);
+        jButton2.setText("jButton3");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
