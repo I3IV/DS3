@@ -5,12 +5,10 @@
  */
 package menu;
 
-/**
+
  *
  * @author User21
  */
-public class main extends javax.swing.JFrame {
-
     /**
      * Creates new form main
      */
@@ -33,21 +31,38 @@ public class main extends javax.swing.JFrame {
 
         jRadioButton1.setText("jRadioButton1");
 
+        jButton1 = new javax.swing.JButton();
+
+        
+
+        jButton1.setText("ilia");
+
+
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                 .addContainerGap(241, Short.MAX_VALUE)
                 .addComponent(jRadioButton1)
                 .addGap(66, 66, 66))
+
+  
+                .addComponent(jButton1)
+                
+
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addGap(93, 93, 93)
+
+              
                 .addComponent(jRadioButton1)
-                .addContainerGap(184, Short.MAX_VALUE))
+              
+
+                .addGap(126, 126, 126)
+                .addComponent(jButton1)
         );
 
         pack();
@@ -89,6 +104,6 @@ public class main extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JRadioButton jRadioButton1;
+
     // End of variables declaration//GEN-END:variables
 }
